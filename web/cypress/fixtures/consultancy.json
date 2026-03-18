@@ -1,0 +1,44 @@
+{
+  "personal": {
+    "name": "Fernando Papito",
+    "email": "papito@teste.com.br",
+    "phone": "11 99999-1000",
+    "consultancyType": "Individual",
+    "personType": "cpf",
+    "document": "65602530070",
+    "discoveryChannels": [
+      "Instagram",
+      "LinkedIn",
+      "Udemy",
+      "YouTube",
+      "Indicação de Amigo"
+    ],
+    "file": "./cypress/fixtures/document.pdf",
+    "description": "Aprender Cypress é essencial para o meu trabalho, porque preciso desenvolver testes automatizados confiáveis para garantir a qualidade das aplicações, reduzir falhas em produção e aumentar a segurança nas entregas do time. Além de facilitar a validação de fluxos importantes do sistema, o Cypress me ajuda a ganhar produtividade no dia a dia, tornando os testes mais rápidos, organizados e fáceis de manter, o que é fundamental para acompanhar as demandas do ambiente profissional e evoluir tecnicamente na área de desenvolvimento e qualidade de software.",
+    "techs": [
+      "Cypress",
+      "Selenium",
+      "WebDriverIO",
+      "Playwright",
+      "Robot Framework"
+    ],
+    "terms": true
+  },
+  "company": {
+    "name": "Fernando Papito",
+    "email": "papito@teste.com.br",
+    "phone": "11 99999-1000",
+    "consultancyType": "In Company",
+    "personType": "cnpj",
+    "document": "01467788000103",
+    "discoveryChannels": [
+      "LinkedIn"
+    ],
+    "file": "./cypress/fixtures/document.pdf",
+    "description": "Aprender Cypress é essencial para o meu trabalho, porque preciso desenvolver testes automatizados confiáveis para garantir a qualidade das aplicações, reduzir falhas em produção e aumentar a segurança nas entregas do time. Além de facilitar a validação de fluxos importantes do sistema, o Cypress me ajuda a ganhar produtividade no dia a dia, tornando os testes mais rápidos, organizados e fáceis de manter, o que é fundamental para acompanhar as demandas do ambiente profissional e evoluir tecnicamente na área de desenvolvimento e qualidade de software.",
+    "techs": [
+      "Cypress"
+    ],
+    "terms": true
+  }
+}
