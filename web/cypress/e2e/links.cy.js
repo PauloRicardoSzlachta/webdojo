@@ -6,7 +6,7 @@ describe('Links abrindo nova guia/janela', () => {
 
   it('Validando o atributo do link do Instagram', () => {
     cy.get('[data-cy="instagram-link"]')
-      .should('have.attr', 'href', 'https://www.instagram.com/qapapito')
+      .should('have.attr', 'href', 'https://www.instagram.com/kaduszlachta')
       .and('have.attr', 'target', '_blank')
   })
 

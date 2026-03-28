@@ -1,0 +1,23 @@
+info:
+  name: Update a user
+  type: http
+  seq: 4
+
+http:
+  method: PUT
+  url: http://localhost:3333/api/users/45
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Peter Parker",
+        "email": "parker@stark.com.br",
+        "password": "123456"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

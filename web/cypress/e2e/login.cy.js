@@ -3,11 +3,11 @@ import { getTodayFormattedDate } from '../support/utils'
 describe('Login', ()=>{
   it ('Deve logar com sucesso', () => {  
     cy.start()
-    cy.submitLoginForm('papito@webdojo.com', 'katana123')
+    cy.submitLoginForm('kadu@webdojo.com', 'katana123')
 
     cy.get('[data-cy="user-name"]')
       .should('be.visible')
-      .and('have.text', 'Fernando Papito')
+      .and('have.text', 'Paulo Ricardo Szlachta')
 
     cy.get('[data-cy="welcome-message"]')
       .should('be.visible')
@@ -27,7 +27,7 @@ describe('Login', ()=>{
 
   it ('Não deve logar com senha inválida', () => {
     cy.start()
-    cy.submitLoginForm('papitoo@webdojo.com', 'katana1234')
+    cy.submitLoginForm('kadu@webdojo.com', 'katana1234')
 
     cy.contains('Acesso negado! Tente novamente.')
       .should('be.visible')    
@@ -35,7 +35,7 @@ describe('Login', ()=>{
 
   it ('Não deve logar com email não cadastrado', () => {
     cy.start()
-    cy.submitLoginForm('papitoo@webdojo.com', 'katana123')
+    cy.submitLoginForm('kaduu@webdojo.com', 'katana123')
 
     cy.contains('Acesso negado! Tente novamente.')
       .should('be.visible')

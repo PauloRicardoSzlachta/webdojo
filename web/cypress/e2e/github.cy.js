@@ -6,24 +6,24 @@ describe('Gerenciamento de perfis no Github', () => {
     })
 
     it('Deve poder cadastrar um novo perfil do github', () => {
-        cy.get('#name').type('Fernando Papito')
-        cy.get('#username').type('papitodev')
+        cy.get('#name').type('Paulo Ricardo Szlachta')
+        cy.get('#username').type('kadudev')
         cy.get('#profile').type('QA')
 
         cy.contains('button', 'Adicionar Perfil').click()
 
-        cy.get('#name').type('Fernando Papito')
-        cy.get('#username').type('papitodev')
+        cy.get('#name').type('Paulo Ricardo Szlachta')
+        cy.get('#username').type('kadudev')
         cy.get('#profile').type('QA')
 
         cy.contains('button', 'Adicionar Perfil').click()
 
-        cy.contains('table tbody tr', 'papitodev')
+        cy.contains('table tbody tr', 'kadudev')
             .should('be.visible')
             .as('trProfile')
 
         cy.get('@trProfile')
-            .contains('td', 'Fernando Papito')
+            .contains('td', 'Paulo Ricardo Szlachta')
             .should('be.visible')
 
         cy.get('@trProfile')
@@ -34,8 +34,8 @@ describe('Gerenciamento de perfis no Github', () => {
     it('Deve poder remover um perfil do github', () => {
 
         const profile = {
-            name: 'Fernando Papito',
-            username: 'papito123',
+            name: 'Paulo Ricardo Szlachta',
+            username: 'kadu123',
             desc: 'QA'
         }
 
@@ -58,8 +58,8 @@ describe('Gerenciamento de perfis no Github', () => {
     it('Acessar validar o link do github', () => {
 
         const profile = {
-            name: 'Fernando Papito',
-            username: 'papitodev',
+            name: 'Paulo Ricardo Szlachta',
+            username: 'kadudev',
             desc: 'QA'
         }
 

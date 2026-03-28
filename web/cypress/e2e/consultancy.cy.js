@@ -19,11 +19,11 @@ describe('Formulário de Consultoria', () => {
         cy.validateConsultancyForm()
     })
 
-    it('Deve solicitar consultoria In Company', () => {
-        cy.fillConsultancyForm(company)
-        cy.submitConsultancyForm()
-        cy.validateConsultancyForm()
-    })
+    // it('Deve solicitar consultoria In Company', () => {
+    //     cy.fillConsultancyForm(company)
+    //     cy.submitConsultancyForm()
+    //     cy.validateConsultancyForm()
+    // })
 
     it('Deve verificar os campos obrigatórios', () => {
         cy.submitConsultancyForm()

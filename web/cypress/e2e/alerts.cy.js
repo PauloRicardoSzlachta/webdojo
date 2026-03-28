@@ -40,11 +40,11 @@ describe('Validações de Alertas em JavaScript', () => {
 
     it('Deve interagir com um prompt, inserir um texto e validar uma mensagem', () => {
         cy.window().then((win) => {
-            cy.stub(win, 'prompt').returns('Papito')
+            cy.stub(win, 'prompt').returns('Kadu')
         })
 
         cy.on('window:alert', (msg) => {
-            expect(msg).to.equal('Olá Papito! Boas-vindas ao WebDojo!')
+            expect(msg).to.equal('Olá Kadu! Boas-vindas ao WebDojo!')
         })
 
         cy.contains('button', 'Mostrar Prompt').click()

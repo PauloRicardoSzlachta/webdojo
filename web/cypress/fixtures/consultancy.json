@@ -1,7 +1,7 @@
 {
   "personal": {
-    "name": "Fernando Papito",
-    "email": "papito@teste.com.br",
+    "name": "Paulo Ricardo Szlachta",
+    "email": "kadu@teste.com.br",
     "phone": "11 99999-1000",
     "consultancyType": "Individual",
     "personType": "cpf",
@@ -25,8 +25,8 @@
     "terms": true
   },
   "company": {
-    "name": "Fernando Papito",
-    "email": "papito@teste.com.br",
+    "name": "Paulo Ricardo Szlachta",
+    "email": "kadu@teste.com.br",
     "phone": "11 99999-1000",
     "consultancyType": "In Company",
     "personType": "cnpj",
