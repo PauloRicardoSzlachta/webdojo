@@ -7,7 +7,7 @@ pnpm-debug.log*
 
 # Acdc
 yarn.lock
-package-lock.json
+# package-lock.json
 
 # Editor/IDE
 .idea/
