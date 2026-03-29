@@ -7,7 +7,8 @@
     "test": "npx cypress run --config viewportWidth=1440 viewportHeight=900",
     "test:ui": "npx cypress open",
     "test:login": "npx cypress run --spec cypress/e2e/login.cy.js --config viewportWidth=1440 viewportHeight=900",
-    "test:login:mobile": "npx cypress run --spec cypress/e2e/login.cy.js --config viewportWidth=414 viewportHeight=896"
+    "test:login:mobile": "npx cypress run --spec cypress/e2e/login.cy.js --config viewportWidth=414 viewportHeight=896",
+    "test:cycloud": "npx cypress run --record --key 3128c3d4-85e6-480e-87f8-bf08baeae456"
   },
   "dependencies": {
     "cypress-real-events": "^1.15.0",
