@@ -22,7 +22,7 @@ jobs:
           # https://docs.cypress.io/app/continuous-integration/overview#Boot-your-server
           working-directory: web
           install-command: npm install
-          start: npm start
+          start: npm run dev
           wait-on: 'http://localhost:3000' # Waits for above
           # Records to Cypress Cloud 
           # https://docs.cypress.io/cloud/get-started/setup
