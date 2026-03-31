@@ -1,4 +1,4 @@
-import address from '../fixtures/cep.json'
+import address from '../fixtures/cep.json';
 
 describe('CEP', () => {
     beforeEach(() => {
@@ -35,3 +35,5 @@ describe('CEP', () => {
             .should('have.value', address.state)
     })
 })
+
+it('kkadu', function() {});

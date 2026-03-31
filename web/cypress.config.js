@@ -4,6 +4,7 @@ module.exports = defineConfig({
   allowCypressEnv: false,
   projectId: "65tbu6",
   e2e: {
+    experimentalStudio: true,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
